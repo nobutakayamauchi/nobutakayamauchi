@@ -65,7 +65,9 @@ Execution never stops.
 
 Execution history is open.
 
-https://github.com/nobutakayamauchi/Keywords
+https://github.com/nobutakayamauchi/
+
+Keywords
 
 AI Execution Systems
 Autonomous AI Governance
