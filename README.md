@@ -69,9 +69,4 @@ https://github.com/nobutakayamauchi/
 
 Keywords
 
-AI Execution Systems
-Autonomous AI Governance
-Execution Logging Architecture
-Human-AI Decision Systems
-Operational Memory Systems
-AI Operator Framework
+AI Execution SystemsAutonomous AI GovernanceExecution Logging ArchitectureHuman-AI Decision SystemsOperational Memory SystemsAI Operator Framework
