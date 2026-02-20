@@ -65,6 +65,11 @@ Execution never stops.
 
 Execution history is open.
 
-https://github.com/nobutakayamauchi/RTS
+https://github.com/nobutakayamauchi/Keywords
 
-
+AI Execution Systems
+Autonomous AI Governance
+Execution Logging Architecture
+Human-AI Decision Systems
+Operational Memory Systems
+AI Operator Framework
