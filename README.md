@@ -58,3 +58,13 @@ Nobutaka Yamauchi
 Japan
 
 Execution never stops.
+
+---
+
+⭐ If RTS interests you, consider starring the RTS repository.
+
+Execution history is open.
+
+https://github.com/nobutakayamauchi/RTS
+
+
