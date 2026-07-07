@@ -10,6 +10,7 @@ The next goal is profile alignment, not product expansion.
 4. Confirm that no private context, operations logs, customer information, or secrets are present.
 5. Add or update public-safe links only when they are stable.
 6. Keep the profile readable for collaborators, reviewers, and future AI assistants.
+7. Maintain `docs/profile/ECOSYSTEM_STATUS.md` as a public-safe ecosystem index, not a raw update log.
 
 ## Suggested Follow-up Files
 
@@ -29,6 +30,16 @@ Use this checklist before changing the public README:
 - Does this avoid overclaiming product readiness?
 - Does this keep the profile concise?
 
+## Ecosystem Status Checklist
+
+Use this checklist before changing `docs/profile/ECOSYSTEM_STATUS.md`:
+
+- Is this a public-safe summary rather than an internal operating note?
+- Does it describe a repository class or ecosystem-level change?
+- Does it avoid raw incident logs, customer data, secrets, and private context?
+- Does it avoid treating every repository as active work?
+- Does it point detailed protocol material back to the canonical RTS repository?
+
 ## Do Not Do Yet
 
 Do not:
@@ -41,6 +52,7 @@ Do not:
 - add long internal explanations
 - turn the profile into a product landing page
 - present experimental repositories as finished infrastructure
+- use the ecosystem status file as a raw commit log
 
 ## Next Recommended Task
 
