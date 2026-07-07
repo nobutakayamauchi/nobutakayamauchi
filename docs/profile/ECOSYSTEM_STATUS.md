@@ -8,7 +8,7 @@ This document is a public-safe summary of the RTS ecosystem.
 
 It is an index, not an operations log.
 
-It should help first-time visitors, collaborators, reviewers, and future AI assistants understand which repositories are active, which are reference material, and which are component shelves.
+It should help first-time visitors, collaborators, reviewers, and future AI assistants understand which repositories are active, which are reference material, which are component shelves, and which are intentionally inactive.
 
 ## Public Rule
 
@@ -52,19 +52,23 @@ Product-specific work should stay in the relevant product repository.
 |---|---|---|
 | `nobutakayamauchi` | GitHub profile surface | Public identity and entry point for the RTS ecosystem |
 
-## Freeze / Archive Candidates
+## Frozen / Review-Only Shelves
 
-Some repositories may remain frozen, archived, or deleted after review.
+| Repository | Status | Current Use |
+|---|---|---|
+| `RTS-Talent-Registry` | FREEZE / GOVERNANCE-REGISTRY / REVIEW BEFORE USE | External AI talent governance registry concept; not active recruiting or runtime infrastructure |
+| `RTS-Signal-Feeds` | FREEZE / SIGNAL-SKELETON / REVIEW BEFORE USE | Non-executable signal intelligence skeleton; not live collection, publishing, or routing infrastructure |
+| `rts-video-flow` | FREEZE / VIDEO-WORKFLOW / REVIEW BEFORE USE | Local video workflow prototype; not a production publishing pipeline |
+| `AIX` | FREEZE / TRADING-LAB / DO NOT ACTIVATE | Private research scaffold; not production trading infrastructure or advice |
 
-They should not be promoted back into active work without a clear decision record.
+## Inactive / Minimal Repositories
 
-Examples of repository classes that may remain frozen or archived:
+| Repository | Status | Current Use |
+|---|---|---|
+| `codex-connector-test` | ARCHIVE / TEST-FIXTURE / DELETE CANDIDATE | Public connector-test sandbox; not production RTS work |
+| `rts-lite` | INACTIVE / EMPTY PLACEHOLDER / REVIEW ONLY | Empty placeholder; active minimal RTS work belongs in `RTS-Minimal-Runtime` |
 
-- old experiments
-- one-off tests
-- obsolete placeholders
-- superseded product attempts
-- repositories without a current role in the RTS ecosystem
+Private or one-off test repositories may be handled separately and do not need to be listed here unless they become public-facing or ecosystem-relevant.
 
 ## Recent Rescue Pass
 
@@ -72,9 +76,10 @@ The current rescue pass added or confirmed lightweight repository guardrails acr
 
 - `STATUS.md` for repository role and current decision
 - `NEXT.md` for the next smallest safe action
-- `AGENTS.md` for AI editing boundaries
+- `AGENTS.md` for AI editing boundaries where useful
 - ecosystem and project registry material in the canonical RTS repository
 - public profile maintenance guardrails in this repository
+- explicit freeze or inactive labels for repositories that should not be treated as active work
 
 The rescue pass did not aim to make every repository active.
 
@@ -92,7 +97,8 @@ Use this operating split:
 | Active Work | May be worked on directly for product, business, or implementation progress |
 | Component Shelf | Holds reusable parts, references, manifests, or procedures |
 | Public Surface | Explains the ecosystem to outside readers |
-| Freeze / Archive | Preserved or removed unless a new decision revives it |
+| Frozen / Review-Only | Preserved but not active unless a new decision revives it |
+| Inactive / Minimal | Kept only as a placeholder or historical reference unless needed later |
 
 ## Current Focus
 
@@ -102,6 +108,7 @@ The practical focus should stay narrow:
 2. process work through `RTS-minicompany`
 3. use `RTS-AGE` only when implementation assistance is needed
 4. keep component shelves available but inactive unless pulled into a concrete task
+5. leave frozen and inactive repositories alone unless a specific review task exists
 
 ## Update Policy
 
